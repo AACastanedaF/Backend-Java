@@ -1,0 +1,53 @@
+public class practicaMultiverse {
+    public static void main (String[] arg){
+    MilesMorales Miles = new MilesMorales();
+    SpiderGwen Gwen = new SpiderGwen();
+    SpiderHam Ham = new SpiderHam();
+    SpiderLess Less = new SpiderLess();
+    IronSpider Iron =  new IronSpider();
+    Miles.SetNombre("Miles Morales");
+    Miles.SetEdad(13);
+    Miles.SetGenero("Masculino");
+    Miles.SetIdentidadSecreta(true);
+    Miles.SetUniverso("Tierra 1610");
+    Miles.GetAll();
+    Miles.ListaAtaquesA();
+    Miles.listaAtaquesB();
+    System.out.println("");
+    Gwen.SetNombre("Gwendolyn Stacy (SpiderGwen)");
+    Gwen.SetEdad(16);
+    Gwen.SetGenero("Femenino");
+    Gwen.SetIdentidadSecreta(true);
+    Gwen.SetUniverso("Tierra 65");
+    Gwen.GetAll();
+    Gwen.ListaAtaquesA();
+    Gwen.listaAtaquesB();
+    System.out.println("");
+    Ham.SetNombre("Peter Porker");
+    Ham.SetEdad(17);
+    Ham.SetGenero("Masculino");
+    Ham.SetIdentidadSecreta(true);
+    Ham.SetUniverso("Tierra 8311");
+    Ham.GetAll();
+    Ham.ListaAtaquesA();
+    Ham.ListaAtaquesO();
+    System.out.println("");
+    Less.SetNombre("Peter Parker (Powerless Spiderman)");
+    Less.SetEdad(17);
+    Less.SetGenero("Masculino");
+    Less.SetIdentidadSecreta(false);
+    Less.SetUniverso("Tierra 40081");
+    Less.GetAll();
+    Less.Ataques();
+    System.out.println("");
+    Iron.SetNombre("Peter Parker (Iron Spider)");
+    Iron.SetEdad(17);
+    Iron.SetGenero("Masculino");
+    Iron.SetIdentidadSecreta(true);
+    Iron.SetUniverso("Tierra 616");
+    Iron.GetAll();
+    Iron.ListaAtaquesA();
+    Iron.listaAtaquesB();
+    Iron.ListaAtaquesO();
+    }
+}
